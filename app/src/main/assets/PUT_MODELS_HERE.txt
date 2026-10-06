@@ -1,0 +1,4 @@
+Optional model files (the app falls back to fakes if a file is missing):
+  birdnet.tflite              BirdNET V2.4 TFLite (see README)
+  species_classifier.tflite   your trained photo classifier (see tools/train_classifier.py)
+  species_labels.txt          one species id per line, in the classifier's output order
